@@ -23,7 +23,9 @@ def load_totals(path):
     with open(path, newline="", encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
             try:
-                totals[row["category"]] += float(row["amount"])
+                amount = float(row["amount"])
+                if amount > 0:
+                    totals[row["category"]] += amount
             except (KeyError, ValueError):
                 print(f"略過格式錯誤的資料：{row}")
     return dict(totals)
