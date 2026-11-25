@@ -9,7 +9,7 @@ Introduction to Software Engineering — Assignment 1（Version Control Practice
 | 成員 | 負責模組 | 檔案 | 分支 |
 |---|---|---|---|
 | wiichen1103 | 輸入模組：新增支出並存檔 | `expense_input.py` | `feature-input` |
-| Peng818 | 視覺化模組：依類別畫圓餅圖 | `piechart.py` | `feature-piechart` |
+| Peng818-git | 視覺化模組：依類別畫圓餅圖 | `piechart.py` | `feature-piechart` |
 
 ## 環境需求
 
